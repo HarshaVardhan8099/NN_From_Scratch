@@ -20,16 +20,6 @@ This project implements a **fully-connected neural network** trained on the MNIS
 
 ---
 
-## 📂 Repository Structure
-- `data_loader.py` → Loads MNIST dataset.
-- `layers.py` → Dense layer and activations.
-- `losses.py` → Cross-entropy loss.
-- `model.py` → Neural network class.
-- `main.py` → Train the model.
-- `test_model.py` → Test trained model & visualize predictions.
-
----
-
 ## 🚀 How to Run
 
 ### Install dependencies
