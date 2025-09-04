@@ -83,11 +83,11 @@ The `backend.py` file handles automatic selection of the backend:
 
 ### 1. Train and test the Model
 
-    ```bash
+    
     python main.py
 
     python test_model.py
-    ```
+    
 
 ---
 
