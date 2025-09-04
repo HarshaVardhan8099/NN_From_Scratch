@@ -82,12 +82,10 @@ The `backend.py` file handles automatic selection of the backend:
 ## 🧠 Usage
 
 ### 1. Train and test the Model
-
     
     python main.py
 
     python test_model.py
-    
 
 ---
 

@@ -20,4 +20,4 @@ The trained model and the generated plot are outputs of your scripts, not source
 They should not be tracked by Git as they can change and bloat the repository size.
 nn_mnist.pkl
 test_results.png
-devsdevcontainer.json
+devcontainer.json
