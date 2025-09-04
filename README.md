@@ -82,12 +82,31 @@ The `backend.py` file handles automatic selection of the backend:
 ## 🧠 Usage
 
 ### 1. Train and test the Model
-
     
     python main.py
 
     python test_model.py
-    
+
+---
+
+## 📤 Ouput - While Training
+
+    [INFO] Using GPU with CuPy (found 1 device(s))
+    Epoch 1/10, Loss=0.9467, Acc = 0.7852
+    Epoch 2/10, Loss=0.3711, Acc = 0.8672
+    Epoch 3/10, Loss=0.5757, Acc = 0.8867
+    Epoch 4/10, Loss=0.2820, Acc = 0.8966
+    Epoch 5/10, Loss=0.2373, Acc = 0.9035
+    Epoch 6/10, Loss=0.2670, Acc = 0.9067
+    Epoch 7/10, Loss=0.3872, Acc = 0.9102
+    Epoch 8/10, Loss=0.2803, Acc = 0.9161
+    Epoch 9/10, Loss=0.5226, Acc = 0.9181
+    Epoch 10/10, Loss=0.6029, Acc = 0.9213
+    Model saved as nn_mnist.pkl
+
+## 📤Output - While Testing the Model
+
+<img width="1200" height="400" alt="test_results" src="https://github.com/user-attachments/assets/7e7a867e-6c51-4806-92af-4343268f8124" />
 
 ---
 
