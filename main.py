@@ -25,7 +25,7 @@ model = SimpleNN([
 loss_fn = CrossEntropyLoss()
 
 # Set up training parameters.
-epochs = 10
+epochs = 20
 batch_size = 64
 
 # Start the main training loop.

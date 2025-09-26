@@ -91,17 +91,27 @@ The `backend.py` file handles automatic selection of the backend:
 
 ## 📤 Ouput - While Training
 
-    [INFO] Using GPU with CuPy (found 1 device(s))
-    Epoch 1/10, Loss=0.9467, Acc = 0.7852
-    Epoch 2/10, Loss=0.3711, Acc = 0.8672
-    Epoch 3/10, Loss=0.5757, Acc = 0.8867
-    Epoch 4/10, Loss=0.2820, Acc = 0.8966
-    Epoch 5/10, Loss=0.2373, Acc = 0.9035
-    Epoch 6/10, Loss=0.2670, Acc = 0.9067
-    Epoch 7/10, Loss=0.3872, Acc = 0.9102
-    Epoch 8/10, Loss=0.2803, Acc = 0.9161
-    Epoch 9/10, Loss=0.5226, Acc = 0.9181
-    Epoch 10/10, Loss=0.6029, Acc = 0.9213
+    [INFO] CuPy not found, falling back to CPU with NumPy
+    Epoch 1/20, Loss=0.9523, Acc = 0.7667
+    Epoch 2/20, Loss=0.4042, Acc = 0.8608
+    Epoch 3/20, Loss=0.3339, Acc = 0.8838
+    Epoch 4/20, Loss=0.3339, Acc = 0.8911
+    Epoch 5/20, Loss=0.2471, Acc = 0.8994
+    Epoch 6/20, Loss=0.2367, Acc = 0.9048
+    Epoch 7/20, Loss=0.4560, Acc = 0.9099
+    Epoch 8/20, Loss=0.3319, Acc = 0.9125
+    Epoch 9/20, Loss=0.2036, Acc = 0.9153
+    Epoch 10/20, Loss=0.3364, Acc = 0.9184
+    Epoch 11/20, Loss=0.2244, Acc = 0.9221
+    Epoch 12/20, Loss=0.3769, Acc = 0.9230
+    Epoch 13/20, Loss=0.0955, Acc = 0.9255
+    Epoch 14/20, Loss=0.1636, Acc = 0.9267
+    Epoch 15/20, Loss=0.1315, Acc = 0.9304
+    Epoch 16/20, Loss=0.3282, Acc = 0.9330
+    Epoch 17/20, Loss=0.1046, Acc = 0.9340
+    Epoch 18/20, Loss=0.2426, Acc = 0.9355
+    Epoch 19/20, Loss=0.1741, Acc = 0.9375
+    Epoch 20/20, Loss=0.0561, Acc = 0.9400
     Model saved as nn_mnist.pkl
 
 ## 📤Output - While Testing the Model
