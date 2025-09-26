@@ -116,7 +116,7 @@ The `backend.py` file handles automatic selection of the backend:
 
 ## 📤Output - While Testing the Model
 
-<img width="1200" height="400" alt="test_results" src="https://github.com/user-attachments/assets/7e7a867e-6c51-4806-92af-4343268f8124" />
+<img width="1203" height="403" alt="image" src="https://github.com/user-attachments/assets/892db1bf-ff8f-4724-94a5-8e60b1839281" />
 
 ---
 
